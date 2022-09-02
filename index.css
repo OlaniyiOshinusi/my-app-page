@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+body {
+    background-color: darkslategray;
+}
+
+h1 {
+    color: blanchedalmond;
+    font-size: 3rem;
+}

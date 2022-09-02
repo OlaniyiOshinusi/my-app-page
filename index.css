@@ -9,6 +9,19 @@ body {
 }
 
 h1 {
-    color: blanchedalmond;
     font-size: 3rem;
+}
+
+.container {
+    max-width: 40rem;
+    margin: 1rem auto;
+    background-color: blanchedalmond;
+    border-radius: 2px;
+    padding: 1rem;
+}
+
+.form__control {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 1rem 0;
 }

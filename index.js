@@ -3,5 +3,6 @@
 document.getElementById('temperatureconverter--form').addEventListener('submit', e => {
     e.preventDefault();
     const celsius = document.getElementById('celsius').value;
-    console.log(celsius);
+    const fahrenheit = document.getElementById('fahrenheit').value;
+    console.log(celsius, fahrenheit);
 })

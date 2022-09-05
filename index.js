@@ -2,5 +2,6 @@
 
 document.getElementById('temperatureconverter--form').addEventListener('submit', e => {
     e.preventDefault();
-    console.log("Hello World!");
+    const amount = document.getElementById('celsius').value;
+    console.log(celsius);
 })

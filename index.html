@@ -15,22 +15,21 @@
                 <label for="celsius">
                     Celsius
                 </label>
-                <input type="number" name="celsius" id="celsius" required>
+                <input type="text" name="celsius" id="celsius" required>
+                <button class="button" type="button" onclick="convertToFahrenheit()">Convert To Fahrenheit</button>
+                <br><br>
             </div>
             <div class="form__control">
                 <label for="fahrenheit">
                     Fahrenheit
                 </label>
-                <input type="number" name="fahrenheit" id="fahrenheit">
+                <input type="text" name="fahrenheit" id="fahrenheit">
+                <button class="button" type="button" onclick="convertToCelsius()">Convert To Celsius</button>
+                <br><br>
             </div>
             <div class="form__control">
-                <label for="result">
-                    Result
-                </label>
-                <input type="number" name="result" id="result">
-            </div>
-            <div class="form__control">
-                <input class="form__btn" type="submit" name="submit" id="submit">
+                <input class="form__btn" type="reset" name="reset" id="reset">
+                
             </div>
         </form>
     </div>
